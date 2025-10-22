@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenu.uss?fileID=7433441132597879392&amp;guid=c4433359c923ad345a086dfc0cd0b64f&amp;type=3#MainMenu" />
+    <engine:VisualElement name="Container" style="flex-grow: 1;">
+        <engine:Label text="MusiCode" name="Header" class="header" style="background-image: none; color: rgb(255, 255, 255);" />
+        <engine:Button text="Jogar" name="PlayButton" class="buton" />
+        <engine:Button text="Sair" name="ExitButton" class="buton" />
+    </engine:VisualElement>
+</engine:UXML>

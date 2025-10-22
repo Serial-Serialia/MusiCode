@@ -1,0 +1,10 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/LevelUIStyles.uss?fileID=7433441132597879392&amp;guid=185a04910b18d294292be87a1a079002&amp;type=3#LevelUIStyles" />
+    <engine:VisualElement picking-mode="Ignore" style="flex-grow: 1; flex-direction: row-reverse;">
+        <engine:Button text="Restart&#10;" name="RestartButton" class="button" />
+        <engine:Button text="Stop" name="StopButton" class="button" />
+        <engine:Button text="Pause" name="PauseButton" class="button" />
+        <engine:Button text="Play&#10;" name="PlayButton" class="button" />
+        <engine:Button text="Voltar&#10;" name="BackButton" class="button" style="right: 1321px;" />
+    </engine:VisualElement>
+</engine:UXML>
